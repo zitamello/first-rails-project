@@ -1,3 +1,4 @@
+
 <div class="div-navbar">
   <h5 class="h5-profile">My profile</h5>
   <div class="div-menu-options">
@@ -11,10 +12,62 @@
     </ul>
   </div>
 </div>
-<div class="div-header-img">
-  <h1 class="h3-title">UX/UI Designer & Web Developer</h1>
+<!-- carrousel !-->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <%= image_tag("photo-1.jpg", :class => "img-1-carrossel") %>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+        <%= image_tag("photo-2.jfif", :class => "img-2-carrossel") %>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+        <%= image_tag("photo-3.jpeg", :class => "img-1-carrossel") %>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 <div class="div-text">
-  <h6 class="h6-text">Creating responsive websites, design interfaces for applications and projects</h6>
-  <p> Keeping simple programming and design with Ruby on Rails </p>
+  <section id="quote" class="bg-parlex">
+    <div class="parlex-back">
+    <h2 class="h2-bio">Programming and Designing with a mug of coffee and lo-fi playlists</h2>
+    <%= image_tag("coffee.png", :class => "icon-coffee") %>
+    <%= image_tag("coffee.png", :class => "icon-coffee2") %>
+    <!--/.container-->
+    </div>
+    <div class="div-bio-text">
+      <h5 class="h5-bio-text"> Criando websites e aplicações com a melhor UI/UX experiência. </h5>
+      <p>Com conhecimentos adquiridos na graduação de Publicidade e Propaganda, migrou-se para a área da Computação.</p>
+      <p>Iniciou-se carreira profissional na área como assistente de Teste manuais e unitários.</p>
+      <p>Em paralelo ao trabalho de Tester, começou projetos de prototipagem de interface de websites e aplicações. <br> Dando os primeiros passos na linguagem Ruby e Javascript, logo aprendeu Ruby on Rails para a desenvolvimento web. </p>
+    </div>
+  </section>
+</div>
+<div id="div-main-skills">
+  <h2>Zita Mello, UI/UX Designer &  Web Developer</h2>
+  <p>Também amante de línguas estrangeiras e outras culturas</p>
 </div>
