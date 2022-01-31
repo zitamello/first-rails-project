@@ -374,21 +374,64 @@ font-size: 16px;
 .h4-title-skills {
   margin-top: 2rem;
   margin-left: 40rem;
+  cursor: default;
 }
 
 .p-habilidades {
   margin-left: 28.5rem;
+  cursor: default;
 }
 
 .div-skill-block {
-  background-color: #e3e9e0;
+  background-color: #fff;
+  height: 360px;
 }
 
-.h6-hard {
-  margin-left: 23rem;
+h6 {
+  margin-left: 20rem;
   padding-top: 2rem;
+  cursor: default;
 }
 
-span {
-  font-weight: bolder;
+#html-bar {
+  width: 40%;
+  margin-left: 28rem;
+  margin-top: -1.5rem;
+}
+
+#js-bar {
+  width: 40%;
+  margin-left: 28rem;
+  margin-top: -1.5rem;
+}
+
+#ruby-bar {
+  width: 40%;
+  margin-left: 28rem;
+  margin-top: -1.5rem;
+}
+
+#sql-bar {
+  width: 40%;
+  margin-left: 28rem;
+  margin-top: -1.5rem;
+}
+
+#english-bar {
+  width: 40%;
+  margin-left: 28rem;
+  margin-top: -1.5rem;
+}
+
+#div-experience {
+  background-color: #d1dbcc;
+  width: 100%;
+  height: 720px;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.h3-experience {
+  padding-top: 3rem;
+  cursor: default;
 }
