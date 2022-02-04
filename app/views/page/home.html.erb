@@ -1,0 +1,20 @@
+<container>
+  <form class="box">
+    <div class="field">
+      <label class="label">Username</label>
+      <div class="control">
+        <input class="input" type="username" placeholder="e.g. Username">
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Password</label>
+      <div class="control">
+        <input class="input" type="password" placeholder="********">
+      </div>
+    </div>
+
+    <button class="button is-primary">Sign in</button>
+    <button class="button is-danger"><%= link_to 'Sign up', new_user_path%></button>
+  </form>
+</container>
